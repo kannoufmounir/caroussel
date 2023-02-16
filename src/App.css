@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+img{
+  border: 1px solid rgb(248, 248, 248);
+  border-radius:  5px;
+  padding: 1px;
+  width: 600px;
+  height: 80%;
+}
+
+.img-produ{
+  display: inline;
+  position: relative;
+  margin: auto;
+  height: 0px;
+}
+.product-image{
+  display: inline-flex;
+  justify-content: center center;
+  align-items: center;
+  
+}
