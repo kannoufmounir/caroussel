@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/caroussel/static/css/main.255f5c24.css",
-    "main.js": "/caroussel/static/js/main.b54df5df.js",
+    "main.css": "/caroussel/static/css/main.1885910f.css",
+    "main.js": "/caroussel/static/js/main.a380ec9e.js",
     "static/media/4.jpg": "/caroussel/static/media/4.bd1f7f6226ab099b4c0a.jpg",
     "static/media/1.jpg": "/caroussel/static/media/1.f2aa868a926e60e2c275.jpg",
     "static/media/5.jpg": "/caroussel/static/media/5.62362408bae212fa6998.jpg",
@@ -11,11 +11,11 @@
     "static/media/revicons.ttf": "/caroussel/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/caroussel/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/caroussel/index.html",
-    "main.255f5c24.css.map": "/caroussel/static/css/main.255f5c24.css.map",
-    "main.b54df5df.js.map": "/caroussel/static/js/main.b54df5df.js.map"
+    "main.1885910f.css.map": "/caroussel/static/css/main.1885910f.css.map",
+    "main.a380ec9e.js.map": "/caroussel/static/js/main.a380ec9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.255f5c24.css",
-    "static/js/main.b54df5df.js"
+    "static/css/main.1885910f.css",
+    "static/js/main.a380ec9e.js"
   ]
 }
