@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
 .App {
   text-align: center;
 }
@@ -15,7 +22,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,27 +39,81 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-img{
+
+img {
   border: 1px solid rgb(248, 248, 248);
-  border-radius:  5px;
   padding: 1px;
   width: 600px;
   height: 80%;
+  box-shadow: rgb(224, 223, 223) 0px 0px 1px 1px;
+
+
 }
 
-.img-produ{
+.img-produ {
   display: inline;
   position: relative;
   margin: auto;
   height: 0px;
+
+
+
 }
-.product-image{
-  display: inline-flex;
+
+.product-image {
+  display: inline-table;
   justify-content: center center;
   align-items: center;
-  
+
 }
+
+.box-L {
+  border: 1px solid rgb(248, 248, 248);
+  height: 83%;
+  box-shadow: rgb(224, 223, 223) 0px 0px 43px 4px;
+  margin-left: 15px;
+  width: 600px;
+
+}
+
+.box-L h1 {
+
+
+  margin-left: 70px;
+  width: 500px;
+  padding-bottom: 6px;
+
+}
+
+.box-L h3 {
+
+
+  color: rgb(189, 9, 9);
+
+}
+
+.btn {
+  width: 40%;
+  padding: 12px 10px;
+  margin-bottom: 70px;
+  background-color: black;
+  color: antiquewhite;
+  border: 1px solid rgb(248, 248, 248);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  width: 40%;
+  padding: 12px 10px;
+  margin-bottom: 70px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(4, 4, 4);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+

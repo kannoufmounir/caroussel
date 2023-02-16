@@ -9,7 +9,10 @@ import image3 from './3.jpg';
 import image4 from './4.jpg';
 import image5 from './5.jpg';
 
+
+
 function App() {
+   
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -33,48 +36,55 @@ function App() {
     }
   }
   return (
+    
     <div className="App">
 
       <Carousel responsive={responsive}>
         <div className='img-produ'>
           <img className='product-image' src={image1} alt="" />
-          <h1>Tommy Hilfiger </h1>
-          <h2>à partir de € 118,96 <h6>TVA incluse</h6></h2>
-          <p>MODERN MIX RUNNER - Baskets basses</p>
-          <button> Ajouter au panier </button>
-
+          <div className='box-L'>
+            <h1>Tommy Hilfiger </h1>
+            <h3>à partir de € 118,96 TVA incluse</h3>
+            <p>MODERN MIX RUNNER - Baskets basses</p>
+            <button className='btn'> Ajouter au panier </button>
+          </div>
         </div>
         <div className='img-produ'>
           <img className='product-image' src={image2} alt="" />
-          <h1>Tommy Hilfiger </h1>
-          <h3>€ 47,95 TVA incluse</h3>
-          <p>CORE LIGHTWEIGHT - Baskets basses</p>
-          <button> Ajouter au panier </button>
-
+          <div className='box-L'>
+            <h1>Tommy Hilfiger </h1>
+            <h3>€ 47,95 TVA incluse</h3>
+            <p>CORE LIGHTWEIGHT - Baskets basses</p>
+            <button className='btn'> Ajouter au panier </button>
+          </div>
         </div>
         <div className='img-produ'>
           <img className='product-image' src={image3} alt="" />
-          <h1>Tommy Hilfiger </h1>
-          <h3>€ 77,93 TVA incluse</h3>
-          <p>RETRO COURT CUPSOLE STRIPES - Baskets</p>
-          <button> Ajouter au panier </button>
-
+          <div className='box-L'>
+            <h1>Tommy Hilfiger </h1>
+            <h3>€ 77,93 TVA incluse</h3>
+            <p>RETRO COURT CUPSOLE STRIPES - Baskets</p>
+            <button className='btn'> Ajouter au panier </button>
+          </div>
         </div>
         <div className='img-produ'>
           <img className='product-image' src={image4} alt="" />
-          <h1>Tommy Hilfiger </h1>
-          <h3>€ 69,95 TVA incluse</h3>
-          <p>ICONIC LOGO - Baskets basses</p>
-          <button> Ajouter au panier </button>
-
+          <div className='box-L'>
+            <h1>Tommy Hilfiger </h1>
+            <h3>€ 69,95 TVA incluse</h3>
+            <p>ICONIC LOGO - Baskets basses</p>
+            <button className='btn'> Ajouter au panier </button>
+          </div>
         </div>
+
         <div className='img-produ'>
           <img className='product-image' src={image5} alt="" />
-          <h1>Tommy Hilfiger </h1>
-          <h3>€ 98,96 TVA incluse</h3>
-          <p>ICONIC RUNNER - Baskets basses</p>
-          <button> Ajouter au panier </button>
-
+          <div className='box-L'>
+            <h1>Tommy Hilfiger </h1>
+            <h3>€ 98,96 TVA incluse</h3>
+            <p>ICONIC RUNNER - Baskets basses</p>
+            <button className='btn'> Ajouter au panier </button>
+          </div>
         </div>
       </Carousel>
 
